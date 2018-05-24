@@ -229,7 +229,7 @@ body h1 {
   margin: -1.5625em auto;
   width: 250px;
   height: 200px;
-  background-image: url("https://preview.ibb.co/nDA6Mn/logo.png") !important;
+  background-image: url("https://i.imgur.com/sVZXIyL.png") !important;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -302,7 +302,7 @@ img#Anil-Logo:after {
   border-top-left-radius: 5%;
   -webkit-box-shadow: 0 1.1875em 2.375em rgba(0, 0, 0, 0.30), 0 0.9375em 10.125em rgba(0, 0, 0, 0.22);
   box-shadow: 0 1.1875em 2.375em rgba(0, 0, 0, 0.30), 0 0.9375em 10.125em rgba(0, 0, 0, 0.22);
-  background-image: url("https://preview.ibb.co/hQaHSS/me.png") !important;
+  background-image: url("https://i.imgur.com/2lbWc1s.jpg") !important;
   background-repeat: no-repeat;
   background-size: cover;
   -moz-appearace: none;
@@ -611,28 +611,28 @@ h2>hr:nth-child(5) {
 }
 
 div.learning:nth-of-type(1) {
-  background: url("https://image.ibb.co/c0aC9S/node.png");
+  background: url("https://i.imgur.com/g3qRtUK.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
 div.learning:nth-of-type(2) {
-  background: url("https://image.ibb.co/dAZTin/angular.png");
+  background: url("https://i.imgur.com/mstqzSR.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
 div.learning:nth-of-type(3) {
-  background: url("https://image.ibb.co/cxMPOn/Ajax.png");
+  background: url("https://i.imgur.com/32mdk0j.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
 div.learning:nth-of-type(4) {
-  background: url("https://image.ibb.co/h4SLw7/react.png");
+  background: url("https://i.imgur.com/OFUeHr8.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -812,7 +812,7 @@ input.btn:hover {
 
 .side-nav>.btn-project {
   height: 20%;
-  background: white url("https://image.ibb.co/cpm7w7/Electronic_Tunes_Logo_A.png");
+  background: white url("https://i.imgur.com/4AHirFT.png");
   background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
