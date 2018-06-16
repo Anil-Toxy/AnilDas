@@ -80,7 +80,7 @@ $(document).ready(function() {
 
 
     });
-    $('#skill','#myskill').on('click',function(){
+    $('#skill,#myskill').on('click',function(){
       $('.tab.1').show();
       $('.tab.0').hide();
       $('.tab.2').hide();
@@ -94,7 +94,7 @@ $(document).ready(function() {
         $('#progress').addClass('animated flip').show();
       }, 8000 );
     });
-    $('#email','#emailme').on('click',function(){
+    $('#email,#emailme').on('click',function(){
       $('.tab.2').show();
       $('.tab.0').hide();
       $('.tab.1').hide();
@@ -111,7 +111,7 @@ $(document).ready(function() {
         $('#submit-btn').addClass('animated flip').show();
       }, 800 );
     });
-    $('#project','#workingproject').on('click',function(){
+    $('#project,#workingproject').on('click',function(){
       $('.tab.3').show();
       $('.tab.0').hide();
       $('.tab.1').hide();
@@ -119,7 +119,7 @@ $(document).ready(function() {
       $('.tab.4').hide();
       $(this).addClass('target');
     });
-    $('#contact','#mystory').on('click',function(){
+    $('#contact,#mystory').on('click',function(){
       $('.tab.4').show();
       $('.tab.0').hide();
       $('.tab.1').hide();
