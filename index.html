@@ -33,14 +33,15 @@ ga('send', 'pageview');
 <!-- End Google Analytics -->
   <meta charset="utf-8">
   <meta http-equiv="Cache-control" content="public">
-  <META HTTP-EQUIV="EXPIRES" 
-CONTENT="Mon, 31 Dec 2018 11:12:01 GMT">
+  <meta http-equiv="EXPIRES" 
+content="Mon, 31 Dec 2018 11:12:01 GMT">
+    <meta name="robots" content="noindex">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-  <meta name="Description" content="Self Taught Front End Developer ,Born & Raised in Odisha ,India .I Can Create Beautiful and Functional Website For Small Business.Available For Remote Work / Full Time.Phone-9438392399 Email - toxyanil@gmail.com">
-<meta name="Keywords" content="Anil das,anil das , anil das front end developer ,anil das web developver , anil das bhawanipatna,Front end developer in india,hire front end developer in india,affordable front end developer in india, web design for small businesses,Front end developer in odisha,Web developer in india ,Front end developer">
+  <meta name="Description" content="Self Taught Front End Developer ,Born & Raised in Odisha ,India .I Can Create Beautiful and Functional Website For Small Business.Phone-9438392399 Email- toxyanil@gmail.com">
+<meta name="Keywords" content="anil das,anil das front end developer ,anil das web developver , anil das bhawanipatna,Front end developer in india,hire front end developer in india,affordable front end developer in india, web design for small businesses,Front end developer in odisha,Web developer in india ,Front end developer">
 <link rel="shortcut icon" href="css/favicon.ico" sizes="48x48" />
-  <link  href="http://www.anildas.in/css/style.css" media="all" rel="stylesheet" />
+  <link  href="http://www.anildas.in/css/style.css" media="print" rel="stylesheet" />
 
   <!-- animate / font-awesome / google font -->
   <link  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
@@ -72,16 +73,16 @@ CONTENT="Mon, 31 Dec 2018 11:12:01 GMT">
     <span class="fa fa-navicon" style="font-size:15px;color:orange;" id="navicon"></span>
     <nav>
       <span id="skill" class="fa fa-keyboard-o" style="font-size:25px;color:white;"></span>
-      <div class="navbar-text animated bounceInLeft "><span class="text">MY SKILLS</span></div>
+      <div class="navbar-text animated bounceInLeft "><span class="text" id="myskill">MY SKILLS</span></div>
 
       <span id="contact" class="fa fa-history" style="font-size:25px;color:white;"></span>
-      <div class="navbar-text animated bounceInLeft"><span class="text">MY STORY</span></div>
+      <div class="navbar-text animated bounceInLeft"><span class="text" id="mystory">MY STORY</span></div>
 
       <span id="project" class="fa fa-mortar-board" style="font-size:25px;color:white;"></span>
-      <div class="navbar-text animated bounceInLeft"><span class="text">WORKING PROJECT</span></div>
+      <div class="navbar-text animated bounceInLeft"><span class="text" id="workingproject">WORKING PROJECT</span></div>
 
       <span id="email" class="fa fa-envelope" style="font-size:25px;color:white;"></span>
-      <div class="navbar-text animated bounceInLeft"><span class="text">EMAIL ME</span></div>
+      <div class="navbar-text animated bounceInLeft"><span class="text" id="emailme">EMAIL ME</span></div>
 
 
     </nav>
@@ -101,10 +102,10 @@ CONTENT="Mon, 31 Dec 2018 11:12:01 GMT">
 
         <h2><hr><hr>Hello, My name is <span class="orange">anil</span> <hr><hr></h2>
         <div id="short-bio">
-          <p class="first">I am a self taught front-end developer ,born & raised in odisha ,india .</p>
+          <p class="first">I am a self taught front end developer ,born & raised in odisha ,india .</p>
           <p class="second">I can create beautiful and functional website for small business. <a href="javascript:void(0)" id="skill-me">check out my skill</a></p>
-          <p class="third">Well if you are free you must<a href="javascript:void(0)" id="story-me"> check out my intresting story </a>about : how i got intrest in web development filed and learned it by self.</p>
-          <p class="forth">I'm available for remote work - if you would like to build something together then you can <a href="javascript:void(0)" id="email-me">text me</a> any time !!</p>
+          <p class="third">Well if you are free you must<a href="javascript:void(0)" title="my story" id="story-me"> check out my intresting story </a>about : how i got intrest in web development filed and learned it by self.</p>
+          <p class="forth">I'm available for remote work - if you would like to build something together then you can <a href="javascript:void(0)" title="email me" id="email-me">text me</a> any time !!</p>
           <br />
           <hr>
           <hr>
@@ -254,20 +255,20 @@ CONTENT="Mon, 31 Dec 2018 11:12:01 GMT">
               <div class="slider">
 
 
-                <img src="https://i.imgur.com/ZxXRw2n.jpg" id="page1" alt="Electronic-Tunes" class="slides animated slideInLeft" />
-                <img src="https://i.imgur.com/njvq9T5.png" id="page2" alt="Electronic-Tunes" class="slides animated slideInRight" />
-                <img src="https://i.imgur.com/zsP0w00.jpg" id="page3" alt="Electronic-Tunes" class="slides animated slideInLeft" />
-                <img src="https://i.imgur.com/giiGoMW.png" id="page4" alt="Electronic-Tunes" class="slides animated slideInRight" />
-                <img src="https://i.imgur.com/T1FGvYE.png" id="page5" alt="Electronic-Tunes" class="slides animated slideInLeft" />
-                <img src="https://i.imgur.com/2lfHFRy.png" id="page6" alt="Electronic-Tunes" class="slides animated slideInRight" />
+                <img src="https://i.imgur.com/ZxXRw2n.jpg" id="page1" alt="Electronic-Tunes page1" class="slides animated slideInLeft" />
+                <img src="https://i.imgur.com/njvq9T5.png" id="page2" alt="Electronic-Tunes page2" class="slides animated slideInRight" />
+                <img src="https://i.imgur.com/zsP0w00.jpg" id="page3" alt="Electronic-Tunes page3" class="slides animated slideInLeft" />
+                <img src="https://i.imgur.com/giiGoMW.png" id="page4" alt="Electronic-Tunes page4" class="slides animated slideInRight" />
+                <img src="https://i.imgur.com/T1FGvYE.png" id="page5" alt="Electronic-Tunes page5" class="slides animated slideInLeft" />
+                <img src="https://i.imgur.com/2lfHFRy.png" id="page6" alt="Electronic-Tunes page6" class="slides animated slideInRight" />
 
               </div>
-              <a href="#page1" class="anchor">1</a>
-              <a href="#page2" class="anchor">2</a>
-              <a href="#page3" class="anchor">3</a>
-              <a href="#page4" class="anchor">4</a>
-              <a href="#page5" class="anchor">5</a>
-              <a href="#page6" class="anchor">6</a>
+              <a href="#page1" title="project"  class="anchor">1</a>
+              <a href="#page2" title="project"  class="anchor">2</a>
+              <a href="#page3" title="project"  class="anchor">3</a>
+              <a href="#page4" title="project"  class="anchor">4</a>
+              <a href="#page5" title="project"  class="anchor">5</a>
+              <a href="#page6" title="project"  class="anchor">6</a>
             </div>
 
 
@@ -298,11 +299,11 @@ CONTENT="Mon, 31 Dec 2018 11:12:01 GMT">
 
     <span class="fa fa-navicon" style="font-size:15px;color:orange;" id="nav-social-icon"></span>
     <div id="social">
-      <a id="twitter" href="https://twitter.com/Toxy_xD/" target="_blank"><span class="animated jackInTheBox fa fa-twitter-square social " style="font-size:30px;display: block;color:white;"></span></a>
-      <a id="github" href="https://github.com/Anil-Toxy/" target="_blank"><span class="fa fa-github-square social animated jackInTheBox" style="font-size:30px;display: block;color:white;"></span></a>
-      <a id="google" href="https://plus.google.com/u/0/101649453807074703077/" target="_blank"><span class="fa fa-google-plus-square social" style="font-size:30px;display: block;color:white;"></span></a>
-      <a id="instagram" href="https://www.instagram.com/toxy.x3/" target="_blank"><span class="fa fa-instagram social" style="font-size:30px;display: block;color:white;"></span></a>
-      <a id="linkedin" href="https://www.linkedin.com/in/anildas-toxy/" target="_blank"><span class="fa fa fa-linkedin-square social" style="font-size:30px;display: block;color:white;"></span></a>
+      <a id="twitter"  title="twitter" href="https://twitter.com/Toxy_xD/" target="_blank"><span class="animated jackInTheBox fa fa-twitter-square social " style="font-size:30px;display: block;color:white;"></span></a>
+      <a id="github"  title="github" href="https://github.com/Anil-Toxy/" target="_blank"><span class="fa fa-github-square social animated jackInTheBox" style="font-size:30px;display: block;color:white;"></span></a>
+      <a id="google" title="google plus" href="https://plus.google.com/u/0/101649453807074703077/" target="_blank"><span class="fa fa-google-plus-square social" style="font-size:30px;display: block;color:white;"></span></a>
+      <a id="instagram" title="instagram" href="https://www.instagram.com/toxy.x3/" target="_blank"><span class="fa fa-instagram social" style="font-size:30px;display: block;color:white;"></span></a>
+      <a id="linkedin" title="linkedin" href="https://www.linkedin.com/in/anildas-toxy/" target="_blank"><span class="fa fa fa-linkedin-square social" style="font-size:30px;display: block;color:white;"></span></a>
       <div id="nav-info">
         <hr>
         <br>
@@ -316,23 +317,23 @@ CONTENT="Mon, 31 Dec 2018 11:12:01 GMT">
 
   </div>
 
-  <h1 class="headline">ANIL DAS | FRONT-END DEVELOPER</h1>
+  <h1 class="headline">ANIL DAS | FRONT END DEVELOPER</h1>
 
   <div id="outer-pop-up">
     <div class="pop-up">
-      <span class="fa fa-twitter-square " style="font-size:20px;color:orange;"></span><span class="text">&nbsp;&nbsp;@Toxy_xD</span>
+      <span class="fa fa-twitter-square " style="font-size:20px;color:orange;"></span><span  class="text">&nbsp;&nbsp;@Toxy_xD</span>
     </div>
     <div class="pop-up ">
-      <span class="fa fa-github-square" style="font-size:20px;color:orange;"></span><span class="text">&nbsp;&nbsp;@Anil-Toxy</span>
+      <span class="fa fa-github-square"  style="font-size:20px;color:orange;"></span><span class="text">&nbsp;&nbsp;@Anil-Toxy</span>
     </div>
     <div class="pop-up">
       <span class="fa fa-google-plus-square" style="font-size:20px;color:orange;"></span><span class="text">&nbsp;&nbsp;@Anil Tox'y</span>
     </div>
     <div class="pop-up ">
-      <span class="fa fa-instagram" style="font-size:20px;color:orange;"></span><span class="text">&nbsp;&nbsp;@toxy.x3</span>
+      <span class="fa fa-instagram"  style="font-size:20px;color:orange;"></span><span class="text">&nbsp;&nbsp;@toxy.x3</span>
     </div>
     <div class="pop-up ">
-      <span class="fa fa fa-linkedin-square" style="font-size:20px;color:orange;"></span><span class="text">&nbsp;&nbsp;@toxy.x3</span>
+      <span class="fa fa fa-linkedin-square"  style="font-size:20px;color:orange;"></span><span class="text">&nbsp;&nbsp;@toxy.x3</span>
     </div>
 
     <H3>Thanks for your time 🙏✌<br />
