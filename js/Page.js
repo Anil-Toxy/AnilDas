@@ -86,7 +86,7 @@ $(document).ready(function() {
       $('.tab.2').hide();
       $('.tab.3').hide();
       $('.tab.4').hide();
-      $(this).addClass('target');
+     
       setInterval(function(){
         $('.learning').addClass('animated zoomIn').show();
       }, 9000 );
@@ -100,7 +100,7 @@ $(document).ready(function() {
       $('.tab.1').hide();
       $('.tab.3').hide();
       $('.tab.4').hide();
-      $(this).addClass('target');
+      
       setInterval(function(){
         $('.float > label').addClass('animated bounceInLeft').show();
       }, 500 );
@@ -117,7 +117,7 @@ $(document).ready(function() {
       $('.tab.1').hide();
       $('.tab.2').hide();
       $('.tab.4').hide();
-      $(this).addClass('target');
+    
     });
     $('#contact,#mystory').on('click',function(){
       $('.tab.4').show();
@@ -125,7 +125,7 @@ $(document).ready(function() {
       $('.tab.1').hide();
       $('.tab.2').hide();
       $('.tab.3').hide();
-      $(this).addClass('target');
+     
     });
 // SOCIAL MEDIA POP-UP
         var twitter = $('#outer-pop-up >.pop-up').get(0);
